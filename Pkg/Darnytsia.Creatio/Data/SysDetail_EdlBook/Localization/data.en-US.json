@@ -1,0 +1,18 @@
+{
+	"PackageData": [
+		{
+			"Row": [
+				{
+					"SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+					"ColumnName": "Id",
+					"Value": "2f1cfa4e-8d34-45ee-a968-446a79f3102e"
+				},
+				{
+					"SchemaColumnUId": "49ad8ee2-65a6-4cdd-b8f6-85c2f10a54dc",
+					"ColumnName": "Caption",
+					"Value": "Книги detail"
+				}
+			]
+		}
+	]
+}

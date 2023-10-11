@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "85267826-5735-4cb4-82a7-405629100288",
+    "Name": "EdlBook",
+    "ModifiedOnUtc": "\/Date(1696805389000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Книги",
+    "DependsOn": []
+  }
+}

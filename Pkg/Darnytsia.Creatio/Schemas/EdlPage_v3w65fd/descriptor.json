@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "df057e18-e5a2-49cb-b027-bd3c7d296e25",
+    "Name": "EdlPage_v3w65fd",
+    "ModifiedOnUtc": "\/Date(1696808586000)\/",
+    "Parent": {
+      "UId": "ecdcc8ff-272c-4957-9381-7d74ce17e140",
+      "Name": "BaseMiniPageTemplate"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Автор книги modal page",
+    "DependsOn": []
+  }
+}

@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "d11fc99f-9160-4254-9fa0-f5c8eb64e5e5",
+    "Name": "EdlBookCase",
+    "ModifiedOnUtc": "\/Date(1696809205000)\/",
+    "ManagerName": "DcmSchemaManager",
+    "Caption": "Стани книги",
+    "DependsOn": []
+  }
+}

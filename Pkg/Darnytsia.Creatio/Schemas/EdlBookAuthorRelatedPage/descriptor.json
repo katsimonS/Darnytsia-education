@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "dd7a8d5e-99d1-443f-a4f7-ec85be3b929a",
+    "Name": "EdlBookAuthorRelatedPage",
+    "ModifiedOnUtc": "\/Date(1696808320000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Автор книги (Налаштування сторінки)",
+    "DependsOn": []
+  }
+}

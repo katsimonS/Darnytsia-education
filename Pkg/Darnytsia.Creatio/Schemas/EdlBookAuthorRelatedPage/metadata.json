@@ -1,0 +1,31 @@
+﻿{
+  "MetaData": {
+    "Schema": {
+      "ManagerName": "AddonSchemaManager",
+      "UId": "dd7a8d5e-99d1-443f-a4f7-ec85be3b929a",
+      "A2": "EdlBookAuthorRelatedPage",
+      "A5": "76ba4c7a-1978-4f65-9d25-cd60c30fcdfb",
+      "B1": [],
+      "B2": [],
+      "B3": [],
+      "B6": "30436aea-a1cb-4754-849f-7dcf7bab245e",
+      "B8": "8.0.9.1582",
+      "AD1": "53352a45-7520-4902-b645-0cef5f96a7e2",
+      "AD2": "EntitySchemaManager",
+      "AD3": "RelatedPage",
+      "AD5": "3a2d6f51-1bfc-4c17-aacb-b53de4866b7c",
+      "AD4": {
+  "Pages": [
+    {
+      "UId": "d2b998dd-843b-46e1-6b16-df4735e4f656",
+      "PageSchemaUId": "df057e18-e5a2-49cb-b027-bd3c7d296e25",
+      "IsDefault": true,
+      "IsSspDefault": false,
+      "Actions": null,
+      "Role": "a29a3ba5-4b0d-de11-9a51-005056c00008"
+    }
+  ]
+}
+    }
+  }
+}

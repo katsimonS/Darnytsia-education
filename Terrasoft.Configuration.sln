@@ -1,0 +1,77 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Terrasoft.Configuration.Dev", "Terrasoft.Configuration.Dev.csproj", "{D6DC2CF8-8243-4A0E-8F0F-6DD0D0913D92}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Darnytsia.Creatio.Abstractions", "src\Darnytsia.Creatio.Abstractions\Darnytsia.Creatio.Abstractions.csproj", "{598057BC-2B1C-46AC-B993-2140084320DE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Darnytsia.Creatio.Api", "src\Darnytsia.Creatio.Api\Darnytsia.Creatio.Api.csproj", "{5C2D1252-0494-4D50-8CEB-03FCA6BF4441}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Darnytsia.Creatio.Contracts", "src\Darnytsia.Creatio.Contracts\Darnytsia.Creatio.Contracts.csproj", "{558FD5F2-516A-49C5-96FF-FA3F5A76F854}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Darnytsia.Creatio.Core", "src\Darnytsia.Creatio.Core\Darnytsia.Creatio.Core.csproj", "{F843A7FB-BBFF-46A6-8224-9D06F152AF25}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Darnytsia.Creatio.Data", "src\Darnytsia.Creatio.Data\Darnytsia.Creatio.Data.csproj", "{732528AA-B599-4AD1-8D00-78C6F04C08A5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Darnytsia.Creatio.Infrastructure", "src\Darnytsia.Creatio.Infrastructure\Darnytsia.Creatio.Infrastructure.csproj", "{31A8F8C9-A51C-437A-90E1-5F02D07BBA6E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Darnytsia.Creatio", "Pkg\Darnytsia.Creatio\Files\Darnytsia.Creatio.csproj", "{F64F6606-4A3B-403C-9298-D59113062DA0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Darnytsia.Creatio.Process", "Pkg\Darnytsia.Creatio.Process\Files\Darnytsia.Creatio.Process.csproj", "{3450758E-5419-407C-AAC4-42CE3960EBC8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{EE270F33-5D5C-471D-B7E4-41D12293EB6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Darnytsia.Creatio.Tests", "src\tests\Darnytsia.Creatio.Tests\Darnytsia.Creatio.Tests.csproj", "{2F6A5E19-C59C-4E57-9160-B7E0CC6D9CF8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6DC2CF8-8243-4A0E-8F0F-6DD0D0913D92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6DC2CF8-8243-4A0E-8F0F-6DD0D0913D92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{598057BC-2B1C-46AC-B993-2140084320DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{598057BC-2B1C-46AC-B993-2140084320DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{598057BC-2B1C-46AC-B993-2140084320DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{598057BC-2B1C-46AC-B993-2140084320DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C2D1252-0494-4D50-8CEB-03FCA6BF4441}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C2D1252-0494-4D50-8CEB-03FCA6BF4441}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C2D1252-0494-4D50-8CEB-03FCA6BF4441}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C2D1252-0494-4D50-8CEB-03FCA6BF4441}.Release|Any CPU.Build.0 = Release|Any CPU
+		{558FD5F2-516A-49C5-96FF-FA3F5A76F854}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{558FD5F2-516A-49C5-96FF-FA3F5A76F854}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{558FD5F2-516A-49C5-96FF-FA3F5A76F854}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{558FD5F2-516A-49C5-96FF-FA3F5A76F854}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F843A7FB-BBFF-46A6-8224-9D06F152AF25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F843A7FB-BBFF-46A6-8224-9D06F152AF25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F843A7FB-BBFF-46A6-8224-9D06F152AF25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F843A7FB-BBFF-46A6-8224-9D06F152AF25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{732528AA-B599-4AD1-8D00-78C6F04C08A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{732528AA-B599-4AD1-8D00-78C6F04C08A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{732528AA-B599-4AD1-8D00-78C6F04C08A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{732528AA-B599-4AD1-8D00-78C6F04C08A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31A8F8C9-A51C-437A-90E1-5F02D07BBA6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31A8F8C9-A51C-437A-90E1-5F02D07BBA6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31A8F8C9-A51C-437A-90E1-5F02D07BBA6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31A8F8C9-A51C-437A-90E1-5F02D07BBA6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F64F6606-4A3B-403C-9298-D59113062DA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F64F6606-4A3B-403C-9298-D59113062DA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F64F6606-4A3B-403C-9298-D59113062DA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F64F6606-4A3B-403C-9298-D59113062DA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3450758E-5419-407C-AAC4-42CE3960EBC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3450758E-5419-407C-AAC4-42CE3960EBC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F6A5E19-C59C-4E57-9160-B7E0CC6D9CF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F6A5E19-C59C-4E57-9160-B7E0CC6D9CF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F6A5E19-C59C-4E57-9160-B7E0CC6D9CF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F6A5E19-C59C-4E57-9160-B7E0CC6D9CF8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2F6A5E19-C59C-4E57-9160-B7E0CC6D9CF8} = {EE270F33-5D5C-471D-B7E4-41D12293EB6A}
+	EndGlobalSection
+EndGlobal

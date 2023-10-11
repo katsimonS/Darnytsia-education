@@ -1,0 +1,16 @@
+schema: ".graphql"
+documents:
+  - "**/queries.graphql"
+  - "**/mutations.graphql"
+
+generates:
+  types.ts:
+    plugins:
+      - typescript
+      - typescript-operations
+      - typed-document-node
+    config:
+      scalars:
+        UUID: "@creatio-devkit/common#Guid"
+        Decimal: "number"
+        DateTime: "Date"

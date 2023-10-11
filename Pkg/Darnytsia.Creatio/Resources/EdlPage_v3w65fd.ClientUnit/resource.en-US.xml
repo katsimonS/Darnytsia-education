@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Автор книги modal page" />
+			<Item Name="LocalizableStrings.addRecord_7i4c50m_caption.Value" Value="Додати новий" />
+			<Item Name="LocalizableStrings.addRecord_j2qm9pz_caption.Value" Value="Додати новий" />
+		</Items>
+	</Group>
+</Resources>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="uk-UA">
+	<Group Type="String">
+		<Items>
+			<Item Name="AddonConfig.Rules.f2821920-3a19-3d6d-38c6-18db9aec8a80.Caption" Value="Зробити елементи обов'язковими: Дата публікації, Показати елементи: Дата публікації" />
+			<Item Name="Caption" Value="Книги form page (Бізнес правила)" />
+		</Items>
+	</Group>
+</Resources>

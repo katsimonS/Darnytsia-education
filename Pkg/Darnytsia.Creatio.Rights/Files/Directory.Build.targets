@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/Darnytsia.Creatio.Rights/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/Darnytsia.Creatio.Rights/Data/**" />
+		<Compile Remove="$(PkgPath)/Darnytsia.Creatio.Rights/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/Darnytsia.Creatio.Rights/Schemas\**" />
+		<Compile Remove="$(PkgPath)/Darnytsia.Creatio.Rights/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/Darnytsia.Creatio.Rights/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/Darnytsia.Creatio.Rights/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/Darnytsia.Creatio.Rights/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/Darnytsia.Creatio.Rights/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/Darnytsia.Creatio.Rights/Resources/**" />
+		<None Remove="$(PkgPath)/Darnytsia.Creatio.Rights/Assemblies/**" />
+		<None Remove="$(PkgPath)/Darnytsia.Creatio.Rights/Data/**" />
+		<None Remove="$(PkgPath)/Darnytsia.Creatio.Rights/SqlScripts/**" />
+		<None Remove="$(PkgPath)/Darnytsia.Creatio.Rights/Schemas/**" />
+		<None Remove="$(PkgPath)/Darnytsia.Creatio.Rights/Resources/**" />
+  </ItemGroup>
+</Project>

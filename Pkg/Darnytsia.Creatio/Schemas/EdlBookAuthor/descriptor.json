@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "53352a45-7520-4902-b645-0cef5f96a7e2",
+    "Name": "EdlBookAuthor",
+    "ModifiedOnUtc": "\/Date(1696808317000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "The author of the book",
+    "DependsOn": []
+  }
+}

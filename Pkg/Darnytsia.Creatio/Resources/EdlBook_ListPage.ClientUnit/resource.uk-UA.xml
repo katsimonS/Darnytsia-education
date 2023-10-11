@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="uk-UA">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Книги list page" />
+			<Item Name="LocalizableStrings.ActionsButton_caption.Value" Value="Дії" />
+			<Item Name="LocalizableStrings.MenuItem_8m672s8_caption.Value" Value="Експорт в Excel" />
+			<Item Name="LocalizableStrings.MenuItem_sy8z6b6_caption.Value" Value="Імпорт даних" />
+			<Item Name="LocalizableStrings.RefreshButtonCaption.Value" Value="Refresh" />
+		</Items>
+	</Group>
+</Resources>

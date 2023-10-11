@@ -1,0 +1,52 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    <ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>None</ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>
+    <OutputPath>Bin</OutputPath>
+    <LangVersion>11</LangVersion>
+    <Nullable>enable</Nullable>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <NoWarn>SA0001</NoWarn>
+    <RootNamespace>Darnytsia.Creatio</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <AssemblyAttribute Include="Terrasoft.Core.Attributes.PackageReferenceAssemblyAttribute">
+      <_Parameter1>All</_Parameter1>
+    </AssemblyAttribute>
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="descriptor.json" />
+    <None Remove="src/**" />
+    <None Remove="packages/**" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+    <PackageReference Include="CreatioSDK" Version="8.0.9.1585" />
+    <PackageReference Include="Edenlab.Creatio.Web.AspNet.GraphQL" Version="3.0.18" />
+    <PackageReference Include="Edenlab.Creatio.Web.AspNet.Swashbuckle" Version="3.0.13" />
+    <PackageReference Include="Edenlab.Creatio.Web.Entities" Version="3.0.30" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
+    <PackageReference Include="PolySharp" Version="1.13.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Scrutor" Version="4.1.0" />
+    <PackageReference Include="StyleCop.Analyzers" Version="1.2.0-beta.435">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\src\Darnytsia.Creatio.Api\Darnytsia.Creatio.Api.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Terrasoft.Configuration">
+      <HintPath Condition=" '$(TerrasoftWebAppFolderPath)' != '' ">$(TerrasoftWebAppFolderPath)\Terrasoft.Configuration\bin\Terrasoft.Configuration.dll</HintPath>
+      <HintPath Condition=" '$(TerrasoftWebAppFolderPath)' == '' ">..\..\..\bin\Terrasoft.Configuration.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+</Project>

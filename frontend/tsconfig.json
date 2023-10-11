@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "ES2018",
+    "module": "commonjs",
+    "baseUrl": "./",
+    "noImplicitAny": false,
+    "strictNullChecks": true,
+    "extendedDiagnostics": true,
+    "composite": true,
+    "outDir": "./dist",
+    "inlineSourceMap": false,
+    "sourceMap": true,
+    "inlineSources": true,
+    "declarationMap": false,
+    "esModuleInterop": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true
+  },
+  "exclude": ["./dist"],
+  "include": [
+    "@darnytsia/**/*.ts",
+    "@darnytsia/**/*.json",
+    "./node_modules/@edenlabllc/sdk/interfaces",
+    "./node_modules/@edenlabllc/sdk/db/types",
+    "./node_modules/@edenlabllc/sdk/terrasoft.d.ts",
+    "./types.ts"
+  ]
+}

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Стани книги" />
+			<Item Name="NotificationCaption.Caption" Value="Заголовок екземпляру процесу" />
+			<Item Name="NotificationCaption.DisplayValue" Value="[#Назва процесу#]" />
+			<Item Name="Stages.Stage1.Caption" Value="Запланована" />
+			<Item Name="Stages.Stage2.Caption" Value="У написанні" />
+			<Item Name="Stages.Stage3.Caption" Value="У пресі" />
+			<Item Name="Stages.Stage4.Caption" Value="Видана" />
+			<Item Name="Stages.Stage5.Caption" Value="Скасована" />
+		</Items>
+	</Group>
+</Resources>

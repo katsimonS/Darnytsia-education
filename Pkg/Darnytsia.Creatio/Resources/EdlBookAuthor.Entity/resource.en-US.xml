@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="The author of the book" />
+			<Item Name="Columns.EdlAuthor.Caption" Value="Author" />
+			<Item Name="Columns.EdlBook.Caption" Value="Book" />
+			<Item Name="Columns.EdlName.Caption" Value="Найменування" />
+		</Items>
+	</Group>
+</Resources>

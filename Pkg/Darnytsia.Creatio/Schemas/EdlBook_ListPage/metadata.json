@@ -1,0 +1,24 @@
+= MetaData.Schema.UId "e06a600c-f55a-4d94-a68b-4e8954a2153c"
+= MetaData.Schema.A2 "EdlBook_ListPage"
+= MetaData.Schema.A5 "6f71e54c-1960-40c9-94f6-073fd67699ab"
++ MetaData.Schema.B2 {
+  "UId": "9b477847-6327-3cd8-1638-324f62e3d420",
+  "A2": "RefreshButtonCaption",
+  "A3": "e06a600c-f55a-4d94-a68b-4e8954a2153c",
+  "A4": "e06a600c-f55a-4d94-a68b-4e8954a2153c",
+  "A5": "1a2d0ecf-6ed9-462c-b8cf-7297687fb7dc"
+}
++ MetaData.Schema.B2 {
+  "UId": "7148a052-5b84-9420-43bd-9453b9ec77ef",
+  "A2": "SearchFilter_placeholder",
+  "A3": "e06a600c-f55a-4d94-a68b-4e8954a2153c",
+  "A4": "e06a600c-f55a-4d94-a68b-4e8954a2153c",
+  "A5": "4a4dc047-777c-4f5c-a6ac-a01e149db672"
+}
+
+~ MetaData.Schema.B2 ["9b477847-6327-3cd8-1638-324f62e3d420"]
+= MetaData.Schema.B6 "5530927f-22ea-e7c9-4ccf-506d3a6c2ed2"
+= MetaData.Schema.HD1 "3f1f3f38-a0a4-4549-b895-249fb08f554a"
+- MetaData.Schema.B7
+- MetaData.Schema.HD12
++ MetaData.Schema.B7 false

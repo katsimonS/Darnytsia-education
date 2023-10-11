@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "13f7ee7b-db8b-45e2-acb0-8d35465ffaa4",
+    "Name": "EdlBook_Detail",
+    "ModifiedOnUtc": "\/Date(1635759571000)\/",
+    "Parent": {
+      "UId": "01eb38ee-668a-42f0-999d-c2534f979089",
+      "Name": "BaseGridDetailV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Книги detail",
+    "DependsOn": []
+  }
+}

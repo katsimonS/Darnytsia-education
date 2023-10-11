@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="uk-UA">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Книги form page" />
+			<Item Name="LocalizableStrings.addRecord_f6kqazw_caption.Value" Value="Додати новий" />
+			<Item Name="LocalizableStrings.addRecord_hyfa5rs_caption.Value" Value="Додати новий" />
+			<Item Name="LocalizableStrings.ExpansionPanel_yht711x_title.Value" Value="Автор книги" />
+			<Item Name="LocalizableStrings.GridDetailAddBtn_i32abe0_caption.Value" Value="Створити" />
+			<Item Name="LocalizableStrings.GridDetailExportDataBtn_lxqno2l_caption.Value" Value="Експорт в Excel" />
+			<Item Name="LocalizableStrings.GridDetailImportDataBtn_mhps4nt_caption.Value" Value="Імпорт даних" />
+			<Item Name="LocalizableStrings.GridDetailRefreshBtn_bnza5sj_caption.Value" Value="Оновити" />
+			<Item Name="LocalizableStrings.GridDetailSearchFilter_86ig2uq_placeholder.Value" Value="Пошук" />
+			<Item Name="LocalizableStrings.GridDetailSettingsBtn_woptyhy_caption.Value" Value="Дії" />
+			<Item Name="LocalizableStrings.PageCount.Value" Value="Має бути менше 5000" />
+		</Items>
+	</Group>
+</Resources>

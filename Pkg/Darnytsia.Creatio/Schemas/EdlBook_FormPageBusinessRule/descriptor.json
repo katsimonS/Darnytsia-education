@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "a8d4c130-742e-4a6d-a50e-189d3fede4d3",
+    "Name": "EdlBook_FormPageBusinessRule",
+    "ModifiedOnUtc": "\/Date(1696805864000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Книги form page (Бізнес правила)",
+    "DependsOn": []
+  }
+}

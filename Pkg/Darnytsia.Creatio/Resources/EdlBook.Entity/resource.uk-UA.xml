@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="uk-UA">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Книги" />
+			<Item Name="Columns.EdlBookCoverType.Caption" Value="Тип палітурки" />
+			<Item Name="Columns.EdlBookDescription.Caption" Value="Опис" />
+			<Item Name="Columns.EdlBookPageCount.Caption" Value="Кількість сторінок" />
+			<Item Name="Columns.EdlBookPublishDate.Caption" Value="Дата публікації" />
+			<Item Name="Columns.EdlBookStatus.Caption" Value="Стан книги" />
+			<Item Name="Columns.EdlName.Caption" Value="Заголовок" />
+		</Items>
+	</Group>
+</Resources>

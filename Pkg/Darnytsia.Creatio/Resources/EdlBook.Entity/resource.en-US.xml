@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Книги" />
+			<Item Name="Columns.EdlBookCoverType.Caption" Value="Cover type" />
+			<Item Name="Columns.EdlBookDescription.Caption" Value="Description" />
+			<Item Name="Columns.EdlBookPageCount.Caption" Value="Page count" />
+			<Item Name="Columns.EdlBookPublishDate.Caption" Value="Publish date" />
+			<Item Name="Columns.EdlBookStatus.Caption" Value="Book status" />
+			<Item Name="Columns.EdlName.Caption" Value="Title" />
+		</Items>
+	</Group>
+</Resources>

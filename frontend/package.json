@@ -1,0 +1,35 @@
+{
+  "name": "darnytsia",
+  "version": "1.0.0",
+  "author": "Edenlab",
+  "scripts": {
+    "build": "npm run build-el-bpmn & webpack",
+    "build-bpmn": "npm run build-el-bpmn & webpack",
+    "build-el-bpmn": "cd el-bpmn && npm install && npm run build",
+    "codegen": "graphql-codegen"
+  },
+  "dependencies": {
+    "@creatio-devkit/common": "^0.8010.0",
+    "@edenlabllc/sdk": "^1.0.228",
+    "copy-webpack-plugin": "^11.0.0",
+    "date-fns": "^2.29.3",
+    "directory-import": "^2.3.1",
+    "glob": "^7.2.0",
+    "source-map-loader": "^3.0.1",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.5.2",
+    "typescript-string-operations": "^1.5.0",
+    "webpack": "^5.68.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "devDependencies": {
+    "@edenlabllc/graphql-fetch-schema": "^1.0.2",
+    "@graphql-codegen/cli": "^3.3.1",
+    "@graphql-codegen/typed-document-node": "^4.0.1",
+    "@graphql-codegen/typescript": "^3.0.4",
+    "@graphql-codegen/typescript-operations": "^3.0.4",
+    "@typescript-eslint/eslint-plugin": "^5.12.0",
+    "@typescript-eslint/parser": "^5.12.0",
+    "eslint": "^8.9.0"
+  }
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "e06a600c-f55a-4d94-a68b-4e8954a2153c",
+    "Name": "EdlBook_ListPage",
+    "ModifiedOnUtc": "\/Date(1635760381000)\/",
+    "Parent": {
+      "UId": "3f1f3f38-a0a4-4549-b895-249fb08f554a",
+      "Name": "ListFreedomTemplate"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Книги list page",
+    "DependsOn": []
+  }
+}

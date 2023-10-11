@@ -1,0 +1,17 @@
+﻿{
+  "Descriptor": {
+    "UId": "ec79a04b-3aed-dfe9-dba1-3a373085d0c0",
+    "Name": "Darnytsia.Creatio.Rights",
+    "Type": 1,
+    "ModifiedOnUtc": "\/Date(1696788979000)\/",
+    "Maintainer": "Edenlab",
+    "ProjectPath": "Files/Darnytsia.Creatio.Rights.csproj",
+    "DependsOn": [
+      {
+        "UId": "667f351a-ac2b-daff-b76c-4812e4e37dd0",
+        "Name": "Darnytsia.Creatio.Process",
+        "Type": 1
+      }
+    ]
+  }
+}

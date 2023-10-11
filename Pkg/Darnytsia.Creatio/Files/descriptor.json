@@ -1,0 +1,5 @@
+{
+  "bootstraps": [
+    "src/bootstrap.js"
+  ]
+}

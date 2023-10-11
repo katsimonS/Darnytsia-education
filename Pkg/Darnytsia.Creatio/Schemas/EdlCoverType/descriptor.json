@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "71cd1126-10be-477f-b02d-54dcf66a5279",
+    "Name": "EdlCoverType",
+    "ModifiedOnUtc": "\/Date(1696804999000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Cover type",
+    "DependsOn": []
+  }
+}
