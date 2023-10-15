@@ -28,4 +28,6 @@
     <ProjectReference Include="..\Darnytsia.Creatio.Abstractions\Darnytsia.Creatio.Abstractions.csproj" />
   </ItemGroup>
 
+
+
 </Project>
