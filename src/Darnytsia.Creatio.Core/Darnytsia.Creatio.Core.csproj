@@ -34,4 +34,6 @@
     <ProjectReference Include="..\Darnytsia.Creatio.Contracts\Darnytsia.Creatio.Contracts.csproj" />
   </ItemGroup>
 
+
+
 </Project>
