@@ -18,7 +18,7 @@ public class UpdateContactBirthdayHandler : IRequestHandler<UpdateContactBirthDa
     public async Task<Unit> Handle(UpdateContactBirthDayCommand request, CancellationToken cancellationToken)
     {
         var contact = await _dbContext.Contacts.FindAsync(request.ContactId, cancellationToken: cancellationToken);
-        contact!.BirthDate = request.BDay;
+        contact!.BirthDate = request.Birthday;
         await _dbContext.SaveChangesAsync(cancellationToken);
         return Unit.Value;
     }

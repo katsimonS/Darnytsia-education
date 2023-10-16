@@ -7,7 +7,7 @@ using System.Threading;
 
 namespace Darnytsia.Creatio.Core.Features.Books.Handlers;
 
-public class UpdateBookAuthorHandler : IRequestHandler<UpdateBookAuthorCommand>
+public class UpdateBookAuthorHandler : IRequestHandler<FillingBookAuthorsCommand>
 {
     private readonly IDbContext _dbContext;
 
@@ -16,7 +16,7 @@ public class UpdateBookAuthorHandler : IRequestHandler<UpdateBookAuthorCommand>
         _dbContext = dbContext;
     }
 
-    public async Task<Unit> Handle(UpdateBookAuthorCommand request, CancellationToken cancellationToken)
+    public async Task<Unit> Handle(FillingBookAuthorsCommand request, CancellationToken cancellationToken)
     {
         var customers = await _dbContext.Contacts
             .AsNoTracking()

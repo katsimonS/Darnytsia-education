@@ -32,7 +32,7 @@ public class BooksController : ApiControllerBase
     [SwaggerResponse(HttpStatusCode.Created)]
     public async Task<IHttpActionResult> FillingAuthorsAsync([FromUri]Guid bookId)
     {
-        await _mediator.Send(new UpdateBookAuthorCommand(bookId));
+        await _mediator.Send(new FillingBookAuthorsCommand(bookId));
         return Accepted();
     }
 }
