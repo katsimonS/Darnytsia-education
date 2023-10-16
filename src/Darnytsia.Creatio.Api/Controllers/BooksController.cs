@@ -28,7 +28,7 @@ public class BooksController : ApiControllerBase
     }
 
     [HttpPost]
-    [Route("{bookId}/update")]
+    [Route("{bookId}/filling-authors")]
     [SwaggerResponse(HttpStatusCode.Created)]
     public async Task<IHttpActionResult> Update([FromUri]Guid bookId)
     {
