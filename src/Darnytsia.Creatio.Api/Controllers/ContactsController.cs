@@ -24,7 +24,7 @@ public class ContactsController : ApiControllerBase
     [HttpGet]
     [Route("{contactId}")]
     [SwaggerResponse(HttpStatusCode.OK)]
-    public async Task<IHttpActionResult> GetById([FromUri] Guid contactId)
+    public async Task<IHttpActionResult> GetByIdAsync([FromUri] Guid contactId)
     {
         return Ok(await _mediator.Send(new GetContactBirthDayByIdQuery(contactId)));
     }
