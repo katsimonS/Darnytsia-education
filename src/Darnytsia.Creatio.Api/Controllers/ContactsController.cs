@@ -32,7 +32,7 @@ public class ContactsController : ApiControllerBase
     [HttpPost]
     [Route("{contactId}/update-birthday")]
     [SwaggerResponse(HttpStatusCode.Created, Type = typeof(ContactRequest))]
-    public async Task<IHttpActionResult> Update([FromUri]Guid contactId, [FromBody]ContactRequest contact)
+    public async Task<IHttpActionResult> UpdateBirthdayAsync([FromUri]Guid contactId, [FromBody]ContactRequest contact)
     {
         await _mediator.Send(new UpdateContactBirthDayCommand(contactId, contact.BirthDay));
         return Accepted();
