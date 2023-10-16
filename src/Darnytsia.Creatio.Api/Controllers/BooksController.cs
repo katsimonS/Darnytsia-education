@@ -22,7 +22,7 @@ public class BooksController : ApiControllerBase
 
     [HttpGet]
     [Route("{bookId}")]
-    public async Task<IHttpActionResult> GetBookById([FromUri] Guid bookId)
+    public async Task<IHttpActionResult> GetBookByIdAsync([FromUri] Guid bookId)
     {
         return Ok(await _mediator.Send(new GetBookByIdQuery(bookId)));
     }
