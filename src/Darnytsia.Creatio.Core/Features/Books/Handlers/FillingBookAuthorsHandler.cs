@@ -7,11 +7,11 @@ using System.Threading;
 
 namespace Darnytsia.Creatio.Core.Features.Books.Handlers;
 
-public class UpdateBookAuthorHandler : IRequestHandler<FillingBookAuthorsCommand>
+public class FillingBookAuthorsHandler : IRequestHandler<FillingBookAuthorsCommand>
 {
     private readonly IDbContext _dbContext;
 
-    public UpdateBookAuthorHandler(IDbContext dbContext)
+    public FillingBookAuthorsHandler(IDbContext dbContext)
     {
         _dbContext = dbContext;
     }
