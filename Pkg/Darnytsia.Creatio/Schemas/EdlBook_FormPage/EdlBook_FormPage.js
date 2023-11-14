@@ -1,4 +1,4 @@
-define("EdlBook_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEMA_ARGS*/()/**SCHEMA_ARGS*/ {
+define("EdlBook_FormPage", /**SCHEMA_DEPS*/["@darnytsia"]/**SCHEMA_DEPS*/, function/**SCHEMA_ARGS*/(darnytsia)/**SCHEMA_ARGS*/ {
 	return {
 		viewConfigDiff: /**SCHEMA_VIEW_CONFIG_DIFF*/[
 			{
@@ -76,7 +76,11 @@ define("EdlBook_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEMA
 					"label": "$Resources.Strings.EdlName",
 					"control": "$EdlName",
 					"labelPosition": "auto",
-					"multiline": false
+					"multiline": false,
+					"readonly": "$IsEdlNameReadOnly",
+					"visible": true,
+					"placeholder": "",
+					"tooltip": ""
 				},
 				"parentName": "SideAreaProfileContainer",
 				"propertyName": "items",
@@ -471,6 +475,9 @@ define("EdlBook_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEMA
 						"path": "PDS.Id"
 					}
 				},
+				"IsEdlNameReadOnly": {
+                    "value": true
+                },
 				"EdlName": {
 					"modelConfig": {
 						"path": "PDS.EdlName"
@@ -564,7 +571,7 @@ define("EdlBook_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEMA
 				]
 			}
 		}/**SCHEMA_MODEL_CONFIG*/,
-		handlers: /**SCHEMA_HANDLERS*/[]/**SCHEMA_HANDLERS*/,
+		handlers: /**SCHEMA_HANDLERS*/darnytsia.ui.pages.EdlBook_FormPage()/**SCHEMA_HANDLERS*/,
 		converters: /**SCHEMA_CONVERTERS*/{}/**SCHEMA_CONVERTERS*/,
 		validators: /**SCHEMA_VALIDATORS*/{
 			"usr.DGValidator": {
