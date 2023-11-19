@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/EdlApp_yfpbusp/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/EdlApp_yfpbusp/Data/**" />
+		<Compile Remove="$(PkgPath)/EdlApp_yfpbusp/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/EdlApp_yfpbusp/Schemas\**" />
+		<Compile Remove="$(PkgPath)/EdlApp_yfpbusp/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/EdlApp_yfpbusp/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/EdlApp_yfpbusp/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/EdlApp_yfpbusp/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/EdlApp_yfpbusp/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/EdlApp_yfpbusp/Resources/**" />
+		<None Remove="$(PkgPath)/EdlApp_yfpbusp/Assemblies/**" />
+		<None Remove="$(PkgPath)/EdlApp_yfpbusp/Data/**" />
+		<None Remove="$(PkgPath)/EdlApp_yfpbusp/SqlScripts/**" />
+		<None Remove="$(PkgPath)/EdlApp_yfpbusp/Schemas/**" />
+		<None Remove="$(PkgPath)/EdlApp_yfpbusp/Resources/**" />
+  </ItemGroup>
+</Project>

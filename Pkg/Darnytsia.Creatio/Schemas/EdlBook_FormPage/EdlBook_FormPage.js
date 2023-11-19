@@ -460,6 +460,22 @@ define("EdlBook_FormPage", /**SCHEMA_DEPS*/["@darnytsia"]/**SCHEMA_DEPS*/, funct
 							"code": "GridDetail_l8d938fDS_EdlName",
 							"caption": "#ResourceString(GridDetail_l8d938fDS_EdlName)#",
 							"dataValueType": 28
+						},
+						{
+							"id": "1705b4f8-3c4e-6ba6-032a-b61f14b3d31c",
+							"code": "GridDetail_l8d938fDS_EdlAuthor",
+							"path": "EdlAuthor",
+							"caption": "#ResourceString(GridDetail_l8d938fDS_EdlAuthor)#",
+							"dataValueType": 10,
+							"referenceSchemaName": "Contact"
+						},
+						{
+							"id": "44b3f3f4-c5d7-344d-b937-f7e341acf674",
+							"code": "GridDetail_l8d938fDS_EdlBook",
+							"path": "EdlBook",
+							"caption": "#ResourceString(GridDetail_l8d938fDS_EdlBook)#",
+							"dataValueType": 10,
+							"referenceSchemaName": "EdlBook"
 						}
 					]
 				},
@@ -476,8 +492,8 @@ define("EdlBook_FormPage", /**SCHEMA_DEPS*/["@darnytsia"]/**SCHEMA_DEPS*/, funct
 					}
 				},
 				"IsEdlNameReadOnly": {
-                    "value": true
-                },
+					"value": true
+				},
 				"EdlName": {
 					"modelConfig": {
 						"path": "PDS.EdlName"
@@ -529,6 +545,16 @@ define("EdlBook_FormPage", /**SCHEMA_DEPS*/["@darnytsia"]/**SCHEMA_DEPS*/, funct
 									"path": "GridDetail_l8d938fDS.EdlName"
 								}
 							},
+							"GridDetail_l8d938fDS_EdlAuthor": {
+								"modelConfig": {
+									"path": "GridDetail_l8d938fDS.EdlAuthor"
+								}
+							},
+							"GridDetail_l8d938fDS_EdlBook": {
+								"modelConfig": {
+									"path": "GridDetail_l8d938fDS.EdlBook"
+								}
+							},
 							"GridDetail_l8d938fDS_Id": {
 								"modelConfig": {
 									"path": "GridDetail_l8d938fDS.Id"
@@ -556,6 +582,12 @@ define("EdlBook_FormPage", /**SCHEMA_DEPS*/["@darnytsia"]/**SCHEMA_DEPS*/, funct
 						"attributes": {
 							"EdlName": {
 								"path": "EdlName"
+							},
+							"EdlAuthor": {
+								"path": "EdlAuthor"
+							},
+							"EdlBook": {
+								"path": "EdlBook"
 							}
 						}
 					}
