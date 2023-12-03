@@ -61,7 +61,7 @@ export const EdlBook_FormPage = (): Array<FreedomUIHandler> => {
       handler: async(request: DataGridCreateItemRequest, next): Promise<unknown> => {
         const result = await next?.handle(request);
 
-        if (request.dataGridName === 'GridDetail_l8d938f') {
+        if (request.dataGridName === 'EdlBookAuthor') {
           loadAuthorList();
         }
         return result;
