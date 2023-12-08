@@ -2,13 +2,12 @@
   "Descriptor": {
     "UId": "f31c613c-7522-4742-9235-1b849cb787a0",
     "Name": "EdlBook_FormPage",
-    "ModifiedOnUtc": "\/Date(1696884637000)\/",
+    "ModifiedOnUtc": "\/Date(1700333742000)\/",
     "Parent": {
       "UId": "3b2e117f-8c6b-4ca5-80a2-7ebb497cddf9",
       "Name": "PageWithTabsFreedomTemplate"
     },
     "ManagerName": "ClientUnitSchemaManager",
-    "Caption": "Книги form page",
-    "DependsOn": []
+    "Caption": "Книги form page"
   }
 }
